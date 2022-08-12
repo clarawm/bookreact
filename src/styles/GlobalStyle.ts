@@ -6,11 +6,11 @@ export default createGlobalStyle`
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Questrial;
   }
 `
 export const colors = {
-  primary: "#455a64",
+  primary: "#5DC0BA",
   secondary: "#2F0961",
   third: "#4C1990",
   thirdLight: "#D1C3E2",

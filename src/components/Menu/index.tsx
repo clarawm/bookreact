@@ -14,10 +14,10 @@ const Menu = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/login">Login</Link>
+          <Link to="/cadastrar">Cadastro</Link>
           </li>
           <li>
-            <Link to="/cadastrar">Cadastrar</Link>
+           <Link to="/login">Login</Link>
           </li>
         </ul>
       </nav>

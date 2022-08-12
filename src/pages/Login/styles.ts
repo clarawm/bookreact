@@ -8,10 +8,10 @@ export const Section = styled.section`
   justify-content: center;
   flex-direction: column;
   h1 {
-    color: ${colors.primary};
-    font-weight: 500;
+    color: ${colors.secondary};
+    font-weight: bold;
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 3rem;
   }
   form {
     background-color: ${colors.thirdLight};
@@ -32,6 +32,7 @@ export const Section = styled.section`
       }
       input {
         width: 100%;
+        color: #D6D6D6;
         font-size: 1rem;
         border: 0;
         background-color: transparent;

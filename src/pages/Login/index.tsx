@@ -6,17 +6,18 @@ import { MdEmail } from "react-icons/md";
 import * as S from "./styles";
 import { ButtonComponent } from "components";
 
+
 const Login = () => {
   return (
     <S.Section>
       <h1>Login</h1>
       <form action="cadastrar.html" method="post">
-        <label htmlFor="email">E-mail</label>
+        <label htmlFor="email">E-mail ou nome de usuário:</label>
         <div>
           <MdEmail />
           <input type="email" name="email" id="email" placeholder="E-mail" />
         </div>
-        <label htmlFor="senha">Senha</label>
+        <label htmlFor="senha">Senha:</label>
         <div>
           <FaKey />
           <input type="password" name="senha" id="senha" placeholder="Senha" />

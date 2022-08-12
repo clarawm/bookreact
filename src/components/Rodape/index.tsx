@@ -1,19 +1,21 @@
 import React from "react";
-import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsInstagram, BsTwitter } from "react-icons/bs";
+import { FaDiscord } from "react-icons/fa";
+
 import * as S from "./styles";
 
 const Rodape = () => {
   return (
     <S.Rodape>
       <div className="content">
-        <a href="https://facebook.com" target="_blank" rel="noreferrer">
-          <BsFacebook />
+        <a href="https://discord.com/" target="_blank" rel="noreferrer">
+          <FaDiscord />
         </a>
         <a href="https://instagram.com" target="_blank" rel="noreferrer">
           <BsInstagram />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
-          <BsLinkedin />
+        <a href="https://twitter.com/login?lang=pt" target="_blank" rel="noreferrer">
+          <BsTwitter />
         </a>
       </div>
     </S.Rodape>

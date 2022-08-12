@@ -1,12 +1,18 @@
 import styled from "styled-components"
 
 export const Home = styled.section`
-  picture > img {
+
+  picture{
+    display:flex;
+    flexDirection:row;
     width: 100%;
+    
   }
-  aside {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 0.5rem;
+  div{
+    display:flex;
+    margin: 18rem;
+    flexDirection:row;
+    width:50%;
+    height:50%;
   }
 `

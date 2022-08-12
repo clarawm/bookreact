@@ -9,10 +9,10 @@ export const Section = styled.section`
   flex-direction: column;
   margin-top: 2rem;
   h1 {
-    color: ${colors.primary};
-    font-weight: 500;
+    color: ${colors.secondary};
+    font-weight: bold;
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 3rem;
   }
   form {
     background-color: ${colors.thirdLight};

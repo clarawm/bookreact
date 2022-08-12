@@ -17,6 +17,11 @@ const Cadastrar = () => {
           <BsFillPersonFill />
           <input type="text" name="nome" id="nome" placeholder="Nome" />
         </div>
+        <label htmlFor="nome">Nome de usuário:</label>
+        <div>
+          <BsFillPersonFill />
+          <input type="tuser" name="ser" id="user" placeholder="Nome de usuario" />
+        </div>
         <label htmlFor="email">E-mail</label>
         <div>
           <MdEmail />
@@ -28,12 +33,11 @@ const Cadastrar = () => {
           <input type="password" name="senha" id="senha" placeholder="Senha" />
         </div>
         <p>
-          Já possui conta? <Link to="/login">Faça o login</Link>
+          Já possui conta? <Link to="/login">Entrar</Link>
           <ButtonComponent>Salvar</ButtonComponent>
         </p>
       </form>
     </S.Section>
   );
 };
-
 export default Cadastrar;
