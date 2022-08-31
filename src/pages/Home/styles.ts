@@ -3,16 +3,13 @@ import styled from "styled-components"
 export const Home = styled.section`
 
   picture{
-    display:flex;
-    flexDirection:row;
-    width: 100%;
-    
-  }
-  div{
-    display:flex;
-    margin: 18rem;
-    flexDirection:row;
-    width:50%;
-    height:50%;
+    display: flex;
+    flex-direction: row;
+
+    div{
+      display:flex;
+      flex-direction: column;
+      padding:5rem;
+    }
   }
 `
