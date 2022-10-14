@@ -1,11 +1,2 @@
-import * as S from "./styles";
-
-const Adm = () => {
-  return (
-    <S.Adm>
-      Área administrativa
-    </S.Adm>
-  );
-};
-
-export default Adm;
+export { default as AdmMessagePage } from "./Message"
+export { default as AdmMessageStorePage } from "./Message/store"

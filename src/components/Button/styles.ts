@@ -1,4 +1,7 @@
-import styled from "styled-components"
+
+
+import { ButtonProps } from "interfaces/button.interface"
+import styled, { css } from "styled-components"
 import { colors } from "styles/GlobalStyle"
 
 const colorVariations = {
