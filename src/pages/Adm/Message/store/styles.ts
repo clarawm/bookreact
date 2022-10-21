@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { colors } from "styles/GlobalStyle"
 
+
 export const Main = styled.main`
   form {
     margin: 1rem 0;
@@ -26,6 +27,9 @@ export const Main = styled.main`
       input {
         padding: 0.4rem;
         border-radius: 0.5rem;
+      }
+      div {
+        display: flex;
       }
     }
   }
