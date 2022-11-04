@@ -33,7 +33,7 @@ const Menu = () => {
           ) : (
             <ul>
               <li>
-                <Link to="/cadastrar">Cadastro</Link>
+                <Link to="/cadastrar">Cadastrar</Link>
               </li>
             <li>
               <Link to="/login">Login</Link>
