@@ -22,7 +22,7 @@ const Home = () => {
       <picture>
         <img src={carrousel} alt="Imagens principais" />
         <div>
-            <img src={book} alt="Imagens principais" /> 
+            
           <aside>
             {messages && messages.map((item) => <CardComponent dados={item} />)}
           </aside>
